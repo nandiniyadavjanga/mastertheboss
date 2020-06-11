@@ -6,7 +6,7 @@ pipeline {
            steps {
             dir ('myproject') {
                  
-                sh 'mvn clean install'
+                sh 'mvn clean install wildfly:deploy'
             }   
         } 
        
